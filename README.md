@@ -31,7 +31,7 @@ cp myfbo-screencap/bin/screencap.sh /usr/local/bin/screencap.sh
 cp myfbo-screencap/lib/screencap.js /usr/local/lib/myfbo/
 ```
 
-Next, you'll want to configure things to their respective URLs
+Next, you'll want to configure things to their respective URLs. The FBO url should look something like 'https://s05.myfbo.com/link.asp?fbo=<your org>'
 
 ```
 sed -i'' -e's#FBOURL#https://<your fbo base url>#' /usr/local/lib/myfbo/screencap.js
